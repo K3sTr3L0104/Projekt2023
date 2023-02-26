@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="maincss.css">
     <title>Röplabda</title>
+    <script>
+        function Felmeres() {
+            var nev = document.getElementById("nev").value;
+            var kor = document.getElementById("kor").value;
+        }
+    </script>
 </head>
 <body>
     <div class="menu">
@@ -21,7 +27,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                asd
+                <h1 id="lap"><i>*Szeretnél csapathoz jelentkezni?*</i></h1>
+                <h2>Név:</h2>
+                <input type="text" id="nev">
+                <h2>Kor:</h2>
+                <input type="text" id="kor">
+                <h2>Magasság:</h2>
+                <input type="text" id="magassag">
             </div>
             <div class="col-lg-6" id="main">
                 <h1 class="rolunk">Röplabda pálya</h1>
@@ -29,7 +41,7 @@
                     A pályán a hálóval párhuzamosan, attól 3 méterre mindkét térfélen van egy vonal, a támadóvonal (hármas vonal).
                     Ha egy csapat elnyerte a szerválás jogát, akkor forgás következik. A csapat tagjai az óramutató járása szerinti irányban forognak. Amennyiben a forgás következtében egy adott pozícióba kedvezőtlen adottságú játékos kerül, azt lecserélhetik a liberóval, de akár más játékossal is. Cserélni azonban játszmánkét („szettenként”) csak hatszor lehet, ám ebbe a liberó cseréje nem számít bele.
                     </p>
-                    <h1 class="rolunk">A játszma</h1>
+                    <h1 id="rolunk">A játszma</h1>
                     <p>
                         Egy csapat hat kezdő játékosból, öt cserejátékosból és egy liberóból áll. Utóbbi – a nyitás kivételével – tetszés szerinti posztra cserélhető, de alapjában védekező specialista. Érmefeldobással választják ki, hogy melyik csapat kezd.
     Az adogató csapat játékosa a levegőbe dobja a labdát, és megpróbálja úgy megütni, hogy az ellenfél területén landoljon. Az ellenfél játékosai legfeljebb háromszor érinthetik a labdát, mielőtt visszajuttatják a másik oldalra (az érintésbe a sáncolás nem számít bele).
@@ -38,7 +50,13 @@
     
                     </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" id="main1">
+                <p class="palya">
+                    <h3 class="idezet"><i>„ Minden sportban lehet ''vesztesnek'' lenni, de ha kitartó vagy és nem adod fel, a győztesek útjára léphetsz. ”</i></h1>
+                </p>
+                <p class="palya">
+                    <img src="kepek/trophy.jpg" id="trophy">
+                </p>
             </div>
         </div>
     </div>

@@ -44,3 +44,19 @@ a:hover {
 .palya {
     text-align: left;
 }
+#trophy {
+    width: 500px;
+    height: 500px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-top: 60px;
+}
+.idezet {
+    margin-left: 5px;
+}
+h2 {
+    color: greenyellow;
+}
+#lap {
+    color: #ff0000;
+}

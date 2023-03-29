@@ -1,0 +1,43 @@
+body {
+    background: url(kepek/indexbg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -20px;
+}
+#bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 7px;
+}
+#cs {
+    display: inline;
+    padding: 60px;
+    text-align: center;
+}
+a {
+    color:red;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+.menu {
+    border: 1px solid ;
+    border-radius: 5px;
+    height: 80px;
+    text-align: center;
+    padding: 15px;
+    margin: 50px;
+    border-color: gray;
+    background-color:rgba(0,0,255,0.3);
+}
+#main {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+ul {
+    list-style-type: circle;
+}

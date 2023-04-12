@@ -6,16 +6,6 @@ body {
     background-size: cover;
     margin-top: -20px;
 }
-#bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 7px;
-}
-#cs {
-    display: inline;
-    padding: 60px;
-    text-align: center;
-}
 a {
     color:red;
     font-weight: bold;
@@ -33,11 +23,23 @@ a:hover {
     border-color: gray;
     background-color:rgba(0,0,255,0.3);
 }
-#main {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 6px;
+li {
+    display: inline;
+    padding: 60px;
+    text-align: center;
 }
-ul {
-    list-style-type: circle;
+h3 {
+    text-align: center center;
+}
+#kep {
+    width: 30%;
+    border: 3px solid purple;
+    border-radius: 10px;
+    background-image: url(kepek/tryit1.jpg);
+}
+.main {
+    justify-content: center center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }

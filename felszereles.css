@@ -43,3 +43,21 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+.alcim {
+    text-align: center;
+}
+.valasztas {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.space {
+    margin-left: 20%;
+}
+.button {
+    justify-content: center;
+    display: flex;
+}
